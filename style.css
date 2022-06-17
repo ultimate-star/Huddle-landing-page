@@ -35,12 +35,21 @@ img {
 	font-weight: 700;
 	padding: 15px 60px;
 }
-
+button[type="super"]:hover {
+	background-color: rgb(255, 250, 250);
+}
 .btn-primary {
 	background-color: hsl(322, 100%, 66%);
 	color: #fff;
 }
+button[type="submit"]:hover {
+	background-color: hsl(322, 96%, 70%);
+}
 
+button[type=submit]:focus {
+	color: white;
+	border: none;
+  }
 .container {
 	padding: 0 20px;
 	margin: 0 auto;
